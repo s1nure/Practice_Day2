@@ -1,0 +1,62 @@
+.highlighted{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.672);
+}
+
+button {
+  font-size: 20px;
+  border-radius: 12px;
+  border: none ;
+  color: white;
+  background-color: rgba(3, 42, 148, 0.365);
+  cursor: pointer;
+}
+.button_view{
+  width: 700px;
+  height: 50px;
+  font-size: 30px;
+  margin: 20px;
+}
+body div{
+  display: flex;
+  margin: auto;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body div input{
+  width: 800px;
+  padding: 10px;
+  font-size: 25px;
+  margin: 20px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.);
+}
+body div table td input{
+  width: 40px;
+}
+.styled-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.styled-table th, .styled-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+  font-size: 1.1em;
+  transition: 0.5s;
+}
+
+.styled-table th {
+  background-color: #f2f2f2;
+}
+
+.styled-table tr:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.672)
+}
